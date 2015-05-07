@@ -1,0 +1,25 @@
+<img alt="Imagen" src="$Imagen3406.getData()" />
+
+<p>
+    $Descripcion.getData()
+</p>
+
+$Contenido.getData()
+
+#if (!$Imagen_galeria.getSiblings().isEmpty())
+    #foreach ($cur_Imagen_en_galeria in $Imagen_galeria.getSiblings())
+        #set ($alt_value= "")
+        #set ($img_value= "")
+        #foreach ($hijo in $Imagen_galeria.getChildren())
+
+            #if ($hijo.getName() == "Alt")
+                #set ($alt_value = $hijo.getData())
+            #elseif ($hijo.getName() == "Imagen3036")
+                #set ($img_value = $hijo.getData())
+            #end
+
+        #end
+
+    <img src="$img_value" alt="$alt_value" />
+    #end
+#end

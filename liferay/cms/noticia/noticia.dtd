@@ -1,0 +1,84 @@
+
+<root available-locales="en_US" default-locale="en_US">
+    <dynamic-element dataType="image" fieldNamespace="wcm" indexType="keyword" localizable="true" name="Imagen3406" readOnly="false" repeatable="false" required="false" showLabel="true" type="wcm-image" width="">
+        <meta-data locale="en_US">
+            <entry name="label">
+                <![CDATA[Imagen]]>
+            </entry>
+            <entry name="predefinedValue">
+                <![CDATA[]]>
+            </entry>
+            <entry name="tip">
+                <![CDATA[]]>
+            </entry>
+        </meta-data>
+    </dynamic-element>
+    <dynamic-element dataType="string" indexType="text" localizable="true" name="Descripcion" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="large">
+        <meta-data locale="en_US">
+            <entry name="label">
+                <![CDATA[Descripción]]>
+            </entry>
+            <entry name="predefinedValue">
+                <![CDATA[]]>
+            </entry>
+            <entry name="tip">
+                <![CDATA[Pon aquí un resumen de la noticia]]>
+            </entry>
+        </meta-data>
+    </dynamic-element>
+    <dynamic-element dataType="html" fieldNamespace="ddm" indexType="text" localizable="true" name="Contenido" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-text-html" width="large">
+        <meta-data locale="en_US">
+            <entry name="label">
+                <![CDATA[Contenido]]>
+            </entry>
+            <entry name="predefinedValue">
+                <![CDATA[]]>
+            </entry>
+            <entry name="tip">
+                <![CDATA[]]>
+            </entry>
+        </meta-data>
+    </dynamic-element>
+    <dynamic-element fieldNamespace="ddm" indexType="keyword" localizable="true" name="Imagen_galeria" readOnly="false" repeatable="true" required="false" showLabel="true" type="ddm-separator" width="">
+        <dynamic-element dataType="image" fieldNamespace="wcm" indexType="keyword" localizable="true" name="Imagen3036" readOnly="false" repeatable="false" required="false" showLabel="true" type="wcm-image" width="">
+            <meta-data locale="en_US">
+                <entry name="label">
+                    <![CDATA[Imagen]]>
+                </entry>
+                <entry name="predefinedValue">
+                    <![CDATA[]]>
+                </entry>
+                <entry name="tip">
+                    <![CDATA[]]>
+                </entry>
+            </meta-data>
+        </dynamic-element>
+        <dynamic-element dataType="string" indexType="keyword" localizable="true" name="Alt" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+            <meta-data locale="en_US">
+                <entry name="label">
+                    <![CDATA[Alt]]>
+                </entry>
+                <entry name="predefinedValue">
+                    <![CDATA[]]>
+                </entry>
+                <entry name="tip">
+                    <![CDATA[]]>
+                </entry>
+            </meta-data>
+        </dynamic-element>
+        <meta-data locale="en_US">
+            <entry name="label">
+                <![CDATA[Imagen galeria]]>
+            </entry>
+            <entry name="predefinedValue">
+                <![CDATA[]]>
+            </entry>
+            <entry name="tip">
+                <![CDATA[]]>
+            </entry>
+            <entry name="style">
+                <![CDATA[]]>
+            </entry>
+        </meta-data>
+    </dynamic-element>
+</root>
